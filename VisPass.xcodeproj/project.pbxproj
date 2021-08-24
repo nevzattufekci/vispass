@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F07C2926D50AD900CC9481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F07C2826D50AD900CC9481 /* Assets.xcassets */; };
+		E2F07C3726D50AD900CC9481 /* VisPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C3626D50AD900CC9481 /* VisPassTests.swift */; };
+		E2F07C4226D50AD900CC9481 /* VisPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C4126D50AD900CC9481 /* VisPassUITests.swift */; };
+		E2F07C5826D50B9700CC9481 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C5626D50B9700CC9481 /* PasswordCell.swift */; };
+		E2F07C5926D50B9700CC9481 /* PasswordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F07C5726D50B9700CC9481 /* PasswordCell.xib */; };
+		E2F07C5D26D50BA700CC9481 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C5B26D50BA700CC9481 /* PhotoView.swift */; };
+		E2F07C5E26D50BA700CC9481 /* CryptoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C5C26D50BA700CC9481 /* CryptoImageView.swift */; };
+		E2F07C6126D50BB600CC9481 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6026D50BB600CC9481 /* Constans.swift */; };
+		E2F07C7126D50BC500CC9481 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6326D50BC500CC9481 /* CollectionExtension.swift */; };
+		E2F07C7326D50BC500CC9481 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6526D50BC500CC9481 /* UITextViewExtension.swift */; };
+		E2F07C7426D50BC500CC9481 /* ApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6626D50BC500CC9481 /* ApplicationExtension.swift */; };
+		E2F07C7526D50BC500CC9481 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6726D50BC500CC9481 /* UITextFieldExtension.swift */; };
+		E2F07C7626D50BC500CC9481 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6826D50BC500CC9481 /* Crypto.swift */; };
+		E2F07C7726D50BC500CC9481 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6926D50BC500CC9481 /* UITableViewExtension.swift */; };
+		E2F07C7826D50BC500CC9481 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6A26D50BC500CC9481 /* UIViewExtension.swift */; };
+		E2F07C7926D50BC500CC9481 /* StringExtenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6B26D50BC500CC9481 /* StringExtenison.swift */; };
+		E2F07C7A26D50BC500CC9481 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6C26D50BC500CC9481 /* UIResponder.swift */; };
+		E2F07C7B26D50BC500CC9481 /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6D26D50BC500CC9481 /* UIScrollViewExtension.swift */; };
+		E2F07C7C26D50BC500CC9481 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6E26D50BC500CC9481 /* UIImageExtension.swift */; };
+		E2F07C7D26D50BC500CC9481 /* LAContextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C6F26D50BC500CC9481 /* LAContextExtension.swift */; };
+		E2F07C7E26D50BC500CC9481 /* DataExtenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C7026D50BC500CC9481 /* DataExtenison.swift */; };
+		E2F07C8126D50BCE00CC9481 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8026D50BCE00CC9481 /* Record.swift */; };
+		E2F07C8626D50BDA00CC9481 /* TextPasswordUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8326D50BDA00CC9481 /* TextPasswordUtility.swift */; };
+		E2F07C8726D50BDA00CC9481 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8426D50BDA00CC9481 /* FileUtility.swift */; };
+		E2F07C8826D50BDA00CC9481 /* KeyChainUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8526D50BDA00CC9481 /* KeyChainUtility.swift */; };
+		E2F07C9326D50BE500CC9481 /* PasswordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8A26D50BE500CC9481 /* PasswordListVC.swift */; };
+		E2F07C9426D50BE500CC9481 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8B26D50BE500CC9481 /* BaseViewController.swift */; };
+		E2F07C9526D50BE500CC9481 /* ImageToPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8C26D50BE500CC9481 /* ImageToPasswordVC.swift */; };
+		E2F07C9626D50BE500CC9481 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8D26D50BE500CC9481 /* MasterVC.swift */; };
+		E2F07C9726D50BE500CC9481 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8E26D50BE500CC9481 /* SettingsVC.swift */; };
+		E2F07C9826D50BE500CC9481 /* AuthanticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C8F26D50BE500CC9481 /* AuthanticateVC.swift */; };
+		E2F07C9926D50BE500CC9481 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C9026D50BE500CC9481 /* PasswordVC.swift */; };
+		E2F07C9A26D50BE500CC9481 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07C9126D50BE500CC9481 /* MainVC.swift */; };
+		E2F07C9E26D50C6100CC9481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F07C9C26D50C6100CC9481 /* LaunchScreen.storyboard */; };
+		E2F07CA126D50C7900CC9481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F07C9F26D50C7900CC9481 /* Main.storyboard */; };
+		E2F07CA326D50C9800CC9481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07CA226D50C9800CC9481 /* AppDelegate.swift */; };
+		E2F07CA526D5365700CC9481 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07CA426D5365700CC9481 /* UIColorExtension.swift */; };
+		E2F07CA726D53C4700CC9481 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F07CA626D53C4700CC9481 /* TabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F07C3326D50AD900CC9481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F07C1926D50AD900CC9481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F07C2026D50AD900CC9481;
+			remoteInfo = VisPass;
+		};
+		E2F07C3E26D50AD900CC9481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F07C1926D50AD900CC9481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F07C2026D50AD900CC9481;
+			remoteInfo = VisPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2F07C2126D50AD900CC9481 /* VisPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F07C2826D50AD900CC9481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F07C2D26D50AD900CC9481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F07C3226D50AD900CC9481 /* VisPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F07C3626D50AD900CC9481 /* VisPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisPassTests.swift; sourceTree = "<group>"; };
+		E2F07C3826D50AD900CC9481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F07C3D26D50AD900CC9481 /* VisPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F07C4126D50AD900CC9481 /* VisPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisPassUITests.swift; sourceTree = "<group>"; };
+		E2F07C4326D50AD900CC9481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F07C5626D50B9700CC9481 /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		E2F07C5726D50B9700CC9481 /* PasswordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordCell.xib; sourceTree = "<group>"; };
+		E2F07C5B26D50BA700CC9481 /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		E2F07C5C26D50BA700CC9481 /* CryptoImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoImageView.swift; sourceTree = "<group>"; };
+		E2F07C6026D50BB600CC9481 /* Constans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		E2F07C6326D50BC500CC9481 /* CollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
+		E2F07C6526D50BC500CC9481 /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		E2F07C6626D50BC500CC9481 /* ApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationExtension.swift; sourceTree = "<group>"; };
+		E2F07C6726D50BC500CC9481 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		E2F07C6826D50BC500CC9481 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		E2F07C6926D50BC500CC9481 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		E2F07C6A26D50BC500CC9481 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E2F07C6B26D50BC500CC9481 /* StringExtenison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtenison.swift; sourceTree = "<group>"; };
+		E2F07C6C26D50BC500CC9481 /* UIResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponder.swift; sourceTree = "<group>"; };
+		E2F07C6D26D50BC500CC9481 /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
+		E2F07C6E26D50BC500CC9481 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		E2F07C6F26D50BC500CC9481 /* LAContextExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAContextExtension.swift; sourceTree = "<group>"; };
+		E2F07C7026D50BC500CC9481 /* DataExtenison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtenison.swift; sourceTree = "<group>"; };
+		E2F07C8026D50BCE00CC9481 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		E2F07C8326D50BDA00CC9481 /* TextPasswordUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPasswordUtility.swift; sourceTree = "<group>"; };
+		E2F07C8426D50BDA00CC9481 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
+		E2F07C8526D50BDA00CC9481 /* KeyChainUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainUtility.swift; sourceTree = "<group>"; };
+		E2F07C8A26D50BE500CC9481 /* PasswordListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordListVC.swift; sourceTree = "<group>"; };
+		E2F07C8B26D50BE500CC9481 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E2F07C8C26D50BE500CC9481 /* ImageToPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToPasswordVC.swift; sourceTree = "<group>"; };
+		E2F07C8D26D50BE500CC9481 /* MasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
+		E2F07C8E26D50BE500CC9481 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E2F07C8F26D50BE500CC9481 /* AuthanticateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthanticateVC.swift; sourceTree = "<group>"; };
+		E2F07C9026D50BE500CC9481 /* PasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		E2F07C9126D50BE500CC9481 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E2F07C9D26D50C6100CC9481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2F07CA026D50C7900CC9481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2F07CA226D50C9800CC9481 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2F07CA426D5365700CC9481 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E2F07CA626D53C4700CC9481 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F07C1E26D50AD900CC9481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C2F26D50AD900CC9481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C3A26D50AD900CC9481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F07C1826D50AD900CC9481 = {
+			isa = PBXGroup;
+			children = (
+				E2F07C2326D50AD900CC9481 /* VisPass */,
+				E2F07C3526D50AD900CC9481 /* VisPassTests */,
+				E2F07C4026D50AD900CC9481 /* VisPassUITests */,
+				E2F07C2226D50AD900CC9481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F07C2226D50AD900CC9481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C2126D50AD900CC9481 /* VisPass.app */,
+				E2F07C3226D50AD900CC9481 /* VisPassTests.xctest */,
+				E2F07C3D26D50AD900CC9481 /* VisPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F07C2326D50AD900CC9481 /* VisPass */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C5526D50B9700CC9481 /* Cells */,
+				E2F07C5F26D50BB600CC9481 /* Constants */,
+				E2F07C5A26D50BA700CC9481 /* Components */,
+				E2F07C6226D50BC500CC9481 /* Extenisons */,
+				E2F07C7F26D50BCE00CC9481 /* Model */,
+				E2F07C8226D50BDA00CC9481 /* Utils */,
+				E2F07C8926D50BE500CC9481 /* ViewModelControllers */,
+				E2F07CA226D50C9800CC9481 /* AppDelegate.swift */,
+				E2F07C9C26D50C6100CC9481 /* LaunchScreen.storyboard */,
+				E2F07C9F26D50C7900CC9481 /* Main.storyboard */,
+				E2F07C2826D50AD900CC9481 /* Assets.xcassets */,
+				E2F07C2D26D50AD900CC9481 /* Info.plist */,
+			);
+			path = VisPass;
+			sourceTree = "<group>";
+		};
+		E2F07C3526D50AD900CC9481 /* VisPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C3626D50AD900CC9481 /* VisPassTests.swift */,
+				E2F07C3826D50AD900CC9481 /* Info.plist */,
+			);
+			path = VisPassTests;
+			sourceTree = "<group>";
+		};
+		E2F07C4026D50AD900CC9481 /* VisPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C4126D50AD900CC9481 /* VisPassUITests.swift */,
+				E2F07C4326D50AD900CC9481 /* Info.plist */,
+			);
+			path = VisPassUITests;
+			sourceTree = "<group>";
+		};
+		E2F07C5526D50B9700CC9481 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C5626D50B9700CC9481 /* PasswordCell.swift */,
+				E2F07C5726D50B9700CC9481 /* PasswordCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E2F07C5A26D50BA700CC9481 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C5B26D50BA700CC9481 /* PhotoView.swift */,
+				E2F07C5C26D50BA700CC9481 /* CryptoImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2F07C5F26D50BB600CC9481 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C6026D50BB600CC9481 /* Constans.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E2F07C6226D50BC500CC9481 /* Extenisons */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C6326D50BC500CC9481 /* CollectionExtension.swift */,
+				E2F07CA426D5365700CC9481 /* UIColorExtension.swift */,
+				E2F07C6526D50BC500CC9481 /* UITextViewExtension.swift */,
+				E2F07C6626D50BC500CC9481 /* ApplicationExtension.swift */,
+				E2F07C6726D50BC500CC9481 /* UITextFieldExtension.swift */,
+				E2F07C6826D50BC500CC9481 /* Crypto.swift */,
+				E2F07C6926D50BC500CC9481 /* UITableViewExtension.swift */,
+				E2F07C6A26D50BC500CC9481 /* UIViewExtension.swift */,
+				E2F07C6B26D50BC500CC9481 /* StringExtenison.swift */,
+				E2F07C6C26D50BC500CC9481 /* UIResponder.swift */,
+				E2F07C6D26D50BC500CC9481 /* UIScrollViewExtension.swift */,
+				E2F07C6E26D50BC500CC9481 /* UIImageExtension.swift */,
+				E2F07C6F26D50BC500CC9481 /* LAContextExtension.swift */,
+				E2F07C7026D50BC500CC9481 /* DataExtenison.swift */,
+			);
+			path = Extenisons;
+			sourceTree = "<group>";
+		};
+		E2F07C7F26D50BCE00CC9481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C8026D50BCE00CC9481 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2F07C8226D50BDA00CC9481 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C8326D50BDA00CC9481 /* TextPasswordUtility.swift */,
+				E2F07C8426D50BDA00CC9481 /* FileUtility.swift */,
+				E2F07C8526D50BDA00CC9481 /* KeyChainUtility.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E2F07C8926D50BE500CC9481 /* ViewModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F07C8A26D50BE500CC9481 /* PasswordListVC.swift */,
+				E2F07C8B26D50BE500CC9481 /* BaseViewController.swift */,
+				E2F07C8C26D50BE500CC9481 /* ImageToPasswordVC.swift */,
+				E2F07C8D26D50BE500CC9481 /* MasterVC.swift */,
+				E2F07C8E26D50BE500CC9481 /* SettingsVC.swift */,
+				E2F07C8F26D50BE500CC9481 /* AuthanticateVC.swift */,
+				E2F07C9026D50BE500CC9481 /* PasswordVC.swift */,
+				E2F07C9126D50BE500CC9481 /* MainVC.swift */,
+				E2F07CA626D53C4700CC9481 /* TabBarController.swift */,
+			);
+			path = ViewModelControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F07C2026D50AD900CC9481 /* VisPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F07C4626D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPass" */;
+			buildPhases = (
+				E2F07C1D26D50AD900CC9481 /* Sources */,
+				E2F07C1E26D50AD900CC9481 /* Frameworks */,
+				E2F07C1F26D50AD900CC9481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisPass;
+			productName = VisPass;
+			productReference = E2F07C2126D50AD900CC9481 /* VisPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F07C3126D50AD900CC9481 /* VisPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F07C4926D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPassTests" */;
+			buildPhases = (
+				E2F07C2E26D50AD900CC9481 /* Sources */,
+				E2F07C2F26D50AD900CC9481 /* Frameworks */,
+				E2F07C3026D50AD900CC9481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F07C3426D50AD900CC9481 /* PBXTargetDependency */,
+			);
+			name = VisPassTests;
+			productName = VisPassTests;
+			productReference = E2F07C3226D50AD900CC9481 /* VisPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2F07C3C26D50AD900CC9481 /* VisPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F07C4C26D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPassUITests" */;
+			buildPhases = (
+				E2F07C3926D50AD900CC9481 /* Sources */,
+				E2F07C3A26D50AD900CC9481 /* Frameworks */,
+				E2F07C3B26D50AD900CC9481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F07C3F26D50AD900CC9481 /* PBXTargetDependency */,
+			);
+			name = VisPassUITests;
+			productName = VisPassUITests;
+			productReference = E2F07C3D26D50AD900CC9481 /* VisPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F07C1926D50AD900CC9481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E2F07C2026D50AD900CC9481 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E2F07C3126D50AD900CC9481 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E2F07C2026D50AD900CC9481;
+					};
+					E2F07C3C26D50AD900CC9481 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E2F07C2026D50AD900CC9481;
+					};
+				};
+			};
+			buildConfigurationList = E2F07C1C26D50AD900CC9481 /* Build configuration list for PBXProject "VisPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F07C1826D50AD900CC9481;
+			productRefGroup = E2F07C2226D50AD900CC9481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F07C2026D50AD900CC9481 /* VisPass */,
+				E2F07C3126D50AD900CC9481 /* VisPassTests */,
+				E2F07C3C26D50AD900CC9481 /* VisPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F07C1F26D50AD900CC9481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F07CA126D50C7900CC9481 /* Main.storyboard in Resources */,
+				E2F07C9E26D50C6100CC9481 /* LaunchScreen.storyboard in Resources */,
+				E2F07C2926D50AD900CC9481 /* Assets.xcassets in Resources */,
+				E2F07C5926D50B9700CC9481 /* PasswordCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C3026D50AD900CC9481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C3B26D50AD900CC9481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F07C1D26D50AD900CC9481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F07C8826D50BDA00CC9481 /* KeyChainUtility.swift in Sources */,
+				E2F07CA726D53C4700CC9481 /* TabBarController.swift in Sources */,
+				E2F07C7626D50BC500CC9481 /* Crypto.swift in Sources */,
+				E2F07C9626D50BE500CC9481 /* MasterVC.swift in Sources */,
+				E2F07C7E26D50BC500CC9481 /* DataExtenison.swift in Sources */,
+				E2F07C7426D50BC500CC9481 /* ApplicationExtension.swift in Sources */,
+				E2F07C9A26D50BE500CC9481 /* MainVC.swift in Sources */,
+				E2F07C7B26D50BC500CC9481 /* UIScrollViewExtension.swift in Sources */,
+				E2F07C5826D50B9700CC9481 /* PasswordCell.swift in Sources */,
+				E2F07C9826D50BE500CC9481 /* AuthanticateVC.swift in Sources */,
+				E2F07C7126D50BC500CC9481 /* CollectionExtension.swift in Sources */,
+				E2F07C7C26D50BC500CC9481 /* UIImageExtension.swift in Sources */,
+				E2F07CA526D5365700CC9481 /* UIColorExtension.swift in Sources */,
+				E2F07C9526D50BE500CC9481 /* ImageToPasswordVC.swift in Sources */,
+				E2F07C7826D50BC500CC9481 /* UIViewExtension.swift in Sources */,
+				E2F07C7D26D50BC500CC9481 /* LAContextExtension.swift in Sources */,
+				E2F07C8626D50BDA00CC9481 /* TextPasswordUtility.swift in Sources */,
+				E2F07C8726D50BDA00CC9481 /* FileUtility.swift in Sources */,
+				E2F07C9426D50BE500CC9481 /* BaseViewController.swift in Sources */,
+				E2F07C8126D50BCE00CC9481 /* Record.swift in Sources */,
+				E2F07C7726D50BC500CC9481 /* UITableViewExtension.swift in Sources */,
+				E2F07C7926D50BC500CC9481 /* StringExtenison.swift in Sources */,
+				E2F07C7526D50BC500CC9481 /* UITextFieldExtension.swift in Sources */,
+				E2F07C9926D50BE500CC9481 /* PasswordVC.swift in Sources */,
+				E2F07C6126D50BB600CC9481 /* Constans.swift in Sources */,
+				E2F07C5E26D50BA700CC9481 /* CryptoImageView.swift in Sources */,
+				E2F07C9326D50BE500CC9481 /* PasswordListVC.swift in Sources */,
+				E2F07C7A26D50BC500CC9481 /* UIResponder.swift in Sources */,
+				E2F07C7326D50BC500CC9481 /* UITextViewExtension.swift in Sources */,
+				E2F07C9726D50BE500CC9481 /* SettingsVC.swift in Sources */,
+				E2F07CA326D50C9800CC9481 /* AppDelegate.swift in Sources */,
+				E2F07C5D26D50BA700CC9481 /* PhotoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C2E26D50AD900CC9481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F07C3726D50AD900CC9481 /* VisPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F07C3926D50AD900CC9481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F07C4226D50AD900CC9481 /* VisPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F07C3426D50AD900CC9481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F07C2026D50AD900CC9481 /* VisPass */;
+			targetProxy = E2F07C3326D50AD900CC9481 /* PBXContainerItemProxy */;
+		};
+		E2F07C3F26D50AD900CC9481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F07C2026D50AD900CC9481 /* VisPass */;
+			targetProxy = E2F07C3E26D50AD900CC9481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2F07C9C26D50C6100CC9481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F07C9D26D50C6100CC9481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E2F07C9F26D50C7900CC9481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F07CA026D50C7900CC9481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F07C4426D50AD900CC9481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2F07C4526D50AD900CC9481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F07C4726D50AD900CC9481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VisPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F07C4826D50AD900CC9481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VisPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2F07C4A26D50AD900CC9481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app.VisPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisPass.app/VisPass";
+			};
+			name = Debug;
+		};
+		E2F07C4B26D50AD900CC9481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app.VisPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisPass.app/VisPass";
+			};
+			name = Release;
+		};
+		E2F07C4D26D50AD900CC9481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app.VisPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisPass;
+			};
+			name = Debug;
+		};
+		E2F07C4E26D50AD900CC9481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VisPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vispass.app.VisPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F07C1C26D50AD900CC9481 /* Build configuration list for PBXProject "VisPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F07C4426D50AD900CC9481 /* Debug */,
+				E2F07C4526D50AD900CC9481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F07C4626D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F07C4726D50AD900CC9481 /* Debug */,
+				E2F07C4826D50AD900CC9481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F07C4926D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F07C4A26D50AD900CC9481 /* Debug */,
+				E2F07C4B26D50AD900CC9481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F07C4C26D50AD900CC9481 /* Build configuration list for PBXNativeTarget "VisPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F07C4D26D50AD900CC9481 /* Debug */,
+				E2F07C4E26D50AD900CC9481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F07C1926D50AD900CC9481 /* Project object */;
+}
