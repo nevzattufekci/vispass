@@ -24,9 +24,6 @@ final class KeyChainUtility {
     private let kSecMatchLimitValue = NSString(format: kSecMatchLimit)
     private let kSecMatchLimitOneValue = NSString(format: kSecMatchLimitOne)
     
-    
-    private let accessGroup = "VisPassAccessGroup"
-    private let account = "VisPassAccount"
     private let service = "VisPassService"
     
     private func prepareKeyChainDict(key: String) -> NSMutableDictionary {
